@@ -9,59 +9,39 @@
     <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
     <fieldset>
     <legend>My Info</legend>
-          <p>
-            <label>First Name:</label>
-            <input type="text" name="first_name_field" placeholder="John"><br>
-          </p>
-          <p>
-            <label>Last Name:</label>
-            <input type="text" name="last_name_field" placeholder="Doe"><br>
-          </p>
-          <p>
-            <label>Phone Number:</label>
-            <input type="text" name="phone_field" placeholder="123-555-1234"><br>
-          </p>
-          <p>
-            <label>Email Address:</label>
-            <input type="text" id="email_field" name="email_field" placeholder="me@example.com"><br>
-          </p>
-          <p>
-            <label>Gender: </label>
-            <input type="radio" name="gender_field" value="male">
-            <label>Male</label>
-            <input type="radio" name="gender_field" value="female">
-            <label>Female</label>
-          </p>
-            <label for="age_selected">Age:</label>
-            <select name="age_selected">
-            <option value="under 18">under 18</option>
-            <option value="18-24">18-24</option>
-            <option value="25-34">25-34</option>
-            <option value="35-44">35-44</option>
-            <option value="45-54">45-54</option>
-            <option value="55-64">55-64</option>
-            <option value="65 and over">65 and over</option>
-            </select>
+      <p><label>First Name:</label><input type="text" name="first_name_field" placeholder="John"><br></p>
+      <p><label>Last Name:</label><input type="text" name="last_name_field" placeholder="Doe"><br></p>
+      <p><label>Phone Number:</label><input type="text" name="phone_field" placeholder="123-555-1234"><br></p>
+      <p><label>Email Address:</label><input type="text" id="email_field" name="email_field" placeholder="me@example.com"><br></p>
+      <p>
+        <label>Gender: </label>
+        <input type="radio" name="gender_field" value="male"><label>Male</label>
+        <input type="radio" name="gender_field" value="female"><label>Female</label>
+      </p>
+      <label>Age:</label>
+      <select name="age_field">
+        <option value="under 18">under 18</option>
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-44">35-44</option>
+        <option value="45-54">45-54</option>
+        <option value="55-64">55-64</option>
+        <option value="65 and over">65 and over</option>
+      </select>
     </fieldset>      
     <p></p>  
     <fieldset>
-    <legend>My Availability</legend>
-          <input type="checkbox" name="available_field[]" value="Sunday">
-          <label>Sunday</label>
-          <input type="checkbox" name="available_field[]" value="Monday">
-          <label>Monday</label>
-          <input type="checkbox" name="available_field[]" value="Tuesday">
-          <label>Tuesday</label>
-          <input type="checkbox" name="available_field[]" value="Wednesday">
-          <label>Wednesday</label>
-          <input type="checkbox" name="available_field[]" value="Thursday">
-          <label>Thursday</label>
-          <input type="checkbox" name="available_field[]" value="Friday">
-          <label>Friday</label>
-          <input type="checkbox" name="available_field[]" value="Saturday">
-          <label>Saturday</label>
+      <legend>My Availability</legend>
+      <p>Days Available</p>
+      <p><input type="checkbox" name="available_field[]" value="Sunday"><label>Sunday</label></p>
+      <p><input type="checkbox" name="available_field[]" value="Monday"><label>Monday</label></p>
+      <p><input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday</label></p>
+      <p><input type="checkbox" name="available_field[]" value="Wednesday"><label>Wednesday</label></p>
+      <p><input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday</label></p>
+      <p><input type="checkbox" name="available_field[]" value="Friday"><label>Friday</label></p>
+      <p><input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday</label></p>
     </fieldset>  
-          <input type="submit" value="Send Me">
-    </form>
+    <input type="submit" value="Send Me">
+ </form>
 </body>
 </html>
